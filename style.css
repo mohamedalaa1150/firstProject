@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    /*background-color: #ffffff;*/
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.8em;
+    transition: 0.7s ease;
+}
+.logo:hover{
+    color: #fc9637;
+}
+
+
+
+.navigation a{
+    color: #fdfdfd;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.navigation a:hover{
+    color: #fc9637;
+}
+
+
+section{
+    padding: 100px 200px;
+    justify-content: center;
+    text-align: center;
+
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url('images/bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2{
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.main h2 span{
+    color: #fbb26d;
+    font-size: 2em;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.main h3{
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main-button{
+    color: white;
+    background-color: #fbb26d;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: 0.7s ease;
+}
+
+.main-button:hover{
+    background-color: #fc9637;
+    transform: scale(1.1);
+    
+}
+
+.social-icons a{
+    color: white;
+    font-size: 1.7em;
+    margin: 0 15px;
+    transition: 0.7s ease;
+}
+.social-icons a:hover{
+    color: #fc9637;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #fbb26d;
+    font-weight: 800;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color: #fbb26d;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color: #fbb26d;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects{
+    background-color: #330b6a;
+
+}
+
+.projects .content{
+    margin-top: 30px;
+    
+}
+
+.project-card{
+    background-color: white;
+    border: 5px solid white;
+    min-height: 14em;
+    width: 20em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+.project-card:hover .project-img{
+    opacity: 0.9;
+}
+
+.project-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.project-info{
+    padding: 1em;
+}
+
+.project-cat{
+    text-align: left;
+    font-size: 0.8em;
+    color: #000;
+}
+
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details{
+    text-decoration: none;
+    color: #fbb26d;
+}
+
+.more-details:hover{
+    color: #fc9637;
+}
+
+.card-contact .card{
+    width: 15em;
+    margin: 30px;
+}
+.card-contact .icon{
+    font-size: 4.5em;
+}
+.card-contact .info h3{
+    color: #000;
+}
+.card-contact .info p{
+    font-size: 1.5;
+}
+
+.footer{
+    background-color: #330b6a;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    padding-left: 15px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.footer-title span {
+    color: #fbb26d;
+}
+.footer .social-icons a{
+    font-size: 1.3em;
+    margin: 10px;
+}
+
+@media (max-width:1023px) {
+    header{
+        padding: 12px 20px;
+        align-items: center;
+        
+    }
+
+    .navigation a{
+        margin: 5px;
+        font-size: .8em;
+    }
+    .logo{
+        font-size: 1.3em;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:641px) {
+    body{
+        font-size: 12px;
+    }
+
+    .footer{
+
+        padding: 1em;
+        
+    }
+    .footer-title{
+        padding-left: 5px;
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+
+    .footer .social-icons a{
+        font-size: 1.1em;
+        margin: 5px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+@media (max-width:300px) {
+    body{
+        font-size: 10px;
+    }
+
+}
